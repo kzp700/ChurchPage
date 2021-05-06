@@ -1,0 +1,1 @@
+This is a church website that I am building for my church and as a portfolio project. All coding copyright © Brandon L. Russell 2021.

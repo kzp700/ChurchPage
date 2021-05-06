@@ -1,0 +1,30 @@
+
+body {
+  background-color: #088cf1;
+}
+
+.centered {
+    padding: 50px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.jumbotron-landing {
+  background-color: #ffffff;
+}
+
+.p-landing {
+  font-size: 2rem;
+}
+
+.card-img {
+  width: 100%!important;
+  height: 150px!important;
+  object-fit: cover;
+}
