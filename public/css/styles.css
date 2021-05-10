@@ -1,6 +1,13 @@
 
 body {
-  background-color: #088cf1;
+  background-color: #0800f7;
+background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png");
+}
+
+.jumbotron-landing {
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png");
+
 }
 
 .centered {
