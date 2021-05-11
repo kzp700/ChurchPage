@@ -1,13 +1,23 @@
 
 body {
-  background-color: #0800f7;
-background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png");
+  /* background-color: #fff;
+background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png"); */
+width: 1920px;
+    background: url("https://picsum.photos/id/1000/1920/1080") top right no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 .jumbotron-landing {
-  background-color: #fff;
-  background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png");
+  background: none;
+  /* background-color: #fff; */
+  /* background-image: url("https://picsum.photos/id/1000/1920/1080"); */
 
+}
+
+.p-landing {
+  background-color: #fff;
 }
 
 .centered {
