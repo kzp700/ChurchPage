@@ -1,23 +1,43 @@
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  font-size: 1.25rem;
+  border-bottom-left-radius:40px;
+  border-bottom-right-radius:40px;
+  
+}
+
+/* .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  background-color: black;
+  color: white;
+} */
+
 body {
-  /* background-color: #fff;
-background-image: url("https://www.transparenttextures.com/patterns/fabric-1-light.png"); */
-width: 1920px;
     background: url("https://picsum.photos/id/1000/1920/1080") top right no-repeat;
     background-attachment: fixed;
     height: 100%;
     width: 100%;
 }
 
-.jumbotron-landing {
-  background: none;
-  /* background-color: #fff; */
-  /* background-image: url("https://picsum.photos/id/1000/1920/1080"); */
-
+.container-fluid {
+  padding: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.p-landing {
+.container-fluid-standard {
   background-color: #fff;
+  width: 75%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.p-standard {
+  font-size: 1.25rem;
+  padding: 1rem;
 }
 
 .centered {
@@ -25,23 +45,24 @@ width: 1920px;
     text-align: center;
 }
 
-.secret-text {
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background-color: #000;
+.p-home-times {
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
 }
 
-.jumbotron-landing {
-  background-color: #ffffff;
+.h1-home-times {
+ text-align: center;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
 }
 
-.p-landing {
-  font-size: 2rem;
-}
+.card {
+  margin: 0 auto;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
 
-.card-img {
-  width: 100%!important;
-  height: 150px!important;
-  object-fit: cover;
 }
