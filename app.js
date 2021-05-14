@@ -29,12 +29,8 @@ app.get("/messages", function(req, res) {
     res.render("messages");
   });
 
-  app.get("/ministries", function(req, res) {
-    res.render("ministries");
-  });
-
-app.get("/contact", function(req, res){
-    res.render("contact");
+  app.get("/connect", function(req, res) {
+    res.render("connect");
   });
 
   app.get("/about", function(req, res) {
