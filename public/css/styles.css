@@ -5,6 +5,7 @@
   font-size: 1.25rem;
   border-bottom-left-radius:40px;
   border-bottom-right-radius:40px;
+  z-index: 2;
   
 }
 
