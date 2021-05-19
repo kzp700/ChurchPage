@@ -9,6 +9,11 @@
   
 }
 
+/* Text responsive, shorthand .tr, to make text scale with screen widith */
+/* .tr {
+  font-size: calc(10% + 1vw + 1vh);
+} */
+
 body {
   background-color: black;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
@@ -46,6 +51,7 @@ body {
 .h1-standard {
   padding-left: 3rem;
   padding-top: 1.5rem;
+  
 }
 
 .p-standard {
@@ -99,4 +105,41 @@ body {
   color: white;
   margin-right: 2rem;
   margin-left: 2rem;
+}
+
+/* Custom Bootstrap breakpoints */
+
+@media (min-width: 1px) {  
+  .h1-standard {font-size:1rem;}
+  .h1-home-times {font-size:1rem;}
+  .h5 {font-size:1.5rem;}
+  .p-standard {font-size:1.25rem;}
+}
+
+@media (min-width: 544px) {  
+  .h1-standard {font-size:1.25rem;}
+  .h1-home-times {font-size:1.25rem;}
+  .h5 {font-size:1.25rem;}
+  .p-standard {font-size:1rem;}
+}
+ 
+@media (min-width: 768px) {  
+  .h1-standard {font-size:1.5rem;}
+  .h1-home-times {font-size:1.5rem;}
+  .h5 {font-size:1.5rem;}
+  .p-standard {font-size:1.25rem;}
+}
+ 
+@media (min-width: 992px) { 
+  .h1-standard {font-size:1.75rem;}
+  .h1-home-times {font-size:1.75rem;}
+  .h5 {font-size:1.25rem;}
+  .p-standard {font-size:1.0rem;}
+}
+
+@media (min-width: 1200px) {  
+  .h1-standard {font-size:2rem;}
+  .h1-home-times {font-size:2rem;}
+  .h5 {font-size:1.5rem;}
+  .p-standard {font-size:1.25rem;}
 }
