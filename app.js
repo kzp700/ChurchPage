@@ -33,6 +33,10 @@ app.get("/messages", function(req, res) {
     res.render("connect");
   });
 
+  app.get("/grow", function(req, res) {
+    res.render("grow");
+  });
+
   app.get("/about", function(req, res) {
     res.render("about");
   });
