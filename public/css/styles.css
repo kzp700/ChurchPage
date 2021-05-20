@@ -9,16 +9,9 @@
   
 }
 
-/* Text responsive, shorthand .tr, to make text scale with screen widith */
-/* .tr {
-  font-size: calc(10% + 1vw + 1vh);
-} */
-
 body {
   background-color: black;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
-    /* background-attachment: fixed; */
-    /* background-size: cover; */
     height: 100%;
     width: 100%;
 }
@@ -56,10 +49,9 @@ body {
 
 .p-standard {
   font-size: 1.25rem;
-  padding-top: 1rem;
-  /* padding-bottom: 1rem; */
+  /* padding-top: 1rem;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2rem; */
 }
 
 .centered {
@@ -103,43 +95,59 @@ body {
 
 .card-text-white {
   color: white;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  /* margin-right: 2rem;
+  margin-left: 2rem; */
+  line-height: .75rem;
 }
 
 /* Custom Bootstrap breakpoints */
 
 @media (min-width: 1px) {  
-  .h1-standard {font-size:1rem;}
-  .h1-home-times {font-size:1rem;}
-  .h5 {font-size:1.5rem;}
-  .p-standard {font-size:1.25rem;}
+  .h1-standard {font-size:1.0rem;}
+  .h1-home-times {font-size:1.0rem;}
+  h5 {font-size:1.0rem;}
+  .p-standard {
+    font-size:.75rem;
+    line-height: .7rem;
+  }
 }
 
 @media (min-width: 544px) {  
   .h1-standard {font-size:1.25rem;}
   .h1-home-times {font-size:1.25rem;}
-  .h5 {font-size:1.25rem;}
-  .p-standard {font-size:1rem;}
+  h5 {font-size:1.25rem;}
+  .p-standard {
+    font-size:.9rem;
+    line-height: .9rem;
+  }
 }
  
 @media (min-width: 768px) {  
   .h1-standard {font-size:1.5rem;}
   .h1-home-times {font-size:1.5rem;}
-  .h5 {font-size:1.5rem;}
-  .p-standard {font-size:1.25rem;}
+  h5 {font-size:1.25rem;}
+  .p-standard {
+    font-size:1.1rem;
+    line-height: 1.3rem;
+  }
 }
  
 @media (min-width: 992px) { 
   .h1-standard {font-size:1.75rem;}
   .h1-home-times {font-size:1.75rem;}
-  .h5 {font-size:1.25rem;}
-  .p-standard {font-size:1.0rem;}
+  h5 {font-size:1.25rem;}
+  .p-standard {
+    font-size:1.3rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 1200px) {  
   .h1-standard {font-size:2rem;}
   .h1-home-times {font-size:2rem;}
-  .h5 {font-size:1.5rem;}
-  .p-standard {font-size:1.25rem;}
+  h5 {font-size:1.5rem;}
+  .p-standard {
+    font-size:1.5rem;
+    line-height: 1.7rem;
+  }
 }
