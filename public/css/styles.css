@@ -9,6 +9,10 @@
   
 }
 
+:root {
+  scroll-padding-top: 8rem;
+}
+
 body {
   background-color: black;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
@@ -68,8 +72,8 @@ body {
 
 .h1-home-times {
  text-align: center;
- padding-top: 2rem;
- padding-bottom: 2rem;
+ /* padding-top: 2rem;
+ padding-bottom: 2rem; */
 }
 
 .card {
