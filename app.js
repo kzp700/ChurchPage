@@ -37,13 +37,13 @@ app.get("/messages", function(req, res) {
     res.render("grow");
   });
 
-  app.get("/about", function(req, res) {
-    res.render("about");
-  });
+  // app.get("/about", function(req, res) {
+  //   res.render("about");
+  // });
 
-app.get("/give", function(req, res){
-    res.render("give");
-  });
+// app.get("/give", function(req, res){
+//     res.render("give");
+//   });
 
   //Heroku settings
 
