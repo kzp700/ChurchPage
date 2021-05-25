@@ -3,21 +3,23 @@
   position: fixed;
   width: 100%;
   font-size: 1.25rem;
-  border-bottom-left-radius:40px;
-  border-bottom-right-radius:40px;
+  /* border-bottom-left-radius:40px;
+  border-bottom-right-radius:40px; */
   z-index: 2;
   
 }
+
+/* .row {
+  width: 100%;
+} */
 
 :root {
   scroll-padding-top: 8rem;
 }
 
 body {
-  background-color: rgb(19, 19, 19);
-  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
-    height: 100%;
-    width: 100%;
+background-color: #ffffff;
+/* background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png"); */
 }
 
 .container-fluid {
@@ -26,34 +28,40 @@ body {
   margin-right: auto !important;
 }
 
-.container-fluid-logo {
-  background-color: #fff;
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
-  border-bottom-left-radius:10px;
-  border-bottom-right-radius:10px;
-  width: 50%;
+.container-fluid-blue {
+color: white;
+  background-color: #64c1ff;
 }
 
-.container-fluid-standard {
-  /* background: url("/images/fabricDark.png"); */
-  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
-  /* border-color: yellow;
-  border-width: 5rem; */
-
-  background-color: #fff;
-  width: 90%;
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
-  border-bottom-left-radius:10px;
-  border-bottom-right-radius:10px;
+.container-fluid-orange {
+  color: white;
+    background-color: #fd7200;
 }
-
+  
 /* .h1-standard {
   padding-left: 2rem;
   padding-top: 1.5rem;
   
 } */
+
+.btn-blue {
+  background: #64c1ff;
+  color: #ffffff;
+  border-color: white;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #000000;
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-white-transparent {
+  background: #ffffff;
+  /* color: #000000; */
+  border-color: rgb(255, 255, 255);
+
+}
 
 .p-standard {
   font-size: 1.25rem;
@@ -63,29 +71,28 @@ body {
 }
 
 .centered {
-    padding: 50px;
     text-align: center;
 }
 
-.p-home-times {
+/* .p-home-times {
   font-size: 1.25rem;
   padding-left: 1.5rem;
   padding-bottom: 0rem;
   padding-top: 0rem;
-}
+} */
 
 .h1-home-times {
- text-align: center;
+ /* text-align: center; */
  /* padding-top: 2rem;
  padding-bottom: 2rem; */
 }
 
 .card {
-  margin: 0 auto;
-  border-top-left-radius:10px;
+  /* margin: 0 auto; */
+  /* border-top-left-radius:10px;
   border-top-right-radius:10px;
   border-bottom-left-radius:10px;
-  border-bottom-right-radius:10px;
+  border-bottom-right-radius:10px; */
   /* background-color: #ff966d; */
   /* background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png"); */
   /* background-color: rgb(83, 211, 250); */
