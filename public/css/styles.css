@@ -29,13 +29,13 @@ background-color: #ffffff;
 }
 
 .container-fluid-blue {
-color: white;
+  color: white;
   background-color: #64c1ff;
 }
 
 .container-fluid-orange {
   color: white;
-    background-color: #fd7200;
+  background-color: #fd7200;
 }
   
 /* .h1-standard {
@@ -122,15 +122,15 @@ color: white;
 
 /* Custom Bootstrap breakpoints */
  
-.h1-standard {font-size:1.2rem;}
-.h1-home-times {font-size:1.2rem;}
+.h1-standard {font-size:1rem;}
+.h1-home-times {font-size:1rem;}
 h5 {
   font-size:1rem;
-  line-height: 1.1rem;
+  line-height: 1rem;
 }
 .p-standard {
-  font-size:1rem;
-  line-height: 1.1rem;
+  font-size:.9rem;
+  line-height: .9rem;
   }
 
 
