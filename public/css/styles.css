@@ -3,15 +3,25 @@
   position: fixed;
   width: 100%;
   font-size: 1.25rem;
-  /* border-bottom-left-radius:40px;
-  border-bottom-right-radius:40px; */
   z-index: 2;
-  
 }
 
-/* .row {
-  width: 100%;
-} */
+a:hover {
+  background-color: silver;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+}
+
+a:active {
+  background-color: silver;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+}
+
 
 :root {
   scroll-padding-top: 8rem;
@@ -19,7 +29,6 @@
 
 body {
 background-color: #ffffff;
-/* background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png"); */
 }
 
 .container-fluid {
@@ -38,12 +47,6 @@ background-color: #ffffff;
   background-color: #fd7200;
 }
   
-/* .h1-standard {
-  padding-left: 2rem;
-  padding-top: 1.5rem;
-  
-} */
-
 .btn-blue {
   background: #64c1ff;
   color: #ffffff;
@@ -65,40 +68,10 @@ background-color: #ffffff;
 
 .p-standard {
   font-size: 1.25rem;
-  /* padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 .centered {
     text-align: center;
-}
-
-/* .p-home-times {
-  font-size: 1.25rem;
-  padding-left: 1.5rem;
-  padding-bottom: 0rem;
-  padding-top: 0rem;
-} */
-
-.h1-home-times {
- /* text-align: center; */
- /* padding-top: 2rem;
- padding-bottom: 2rem; */
-}
-
-.card {
-  /* margin: 0 auto; */
-  /* border-top-left-radius:10px;
-  border-top-right-radius:10px;
-  border-bottom-left-radius:10px;
-  border-bottom-right-radius:10px; */
-  /* background-color: #ff966d; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png"); */
-  /* background-color: rgb(83, 211, 250); */
-
-
-
 }
 
 .link {
@@ -115,9 +88,6 @@ background-color: #ffffff;
 
 .card-text-white {
   color: white;
-  /* margin-right: 2rem;
-  margin-left: 2rem; */
-  /* line-height: .75rem; */
 }
 
 /* Custom Bootstrap breakpoints */
