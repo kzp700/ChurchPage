@@ -37,8 +37,8 @@ app.get("/messages", function(req, res) {
     res.render("grow");
   });
 
-  // app.get("/about", function(req, res) {
-  //   res.render("about");
+  // app.get("/contact", function(req, res) {
+  //   res.render("contact");
   // });
 
 // app.get("/give", function(req, res){

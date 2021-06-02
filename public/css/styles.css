@@ -6,6 +6,29 @@
   z-index: 2;
 }
 
+h1 {
+  text-shadow:
+  -1px -1px 0 #555,
+  1px -1px 0 #555,
+  -1px 1px 0 #555,
+  1px 1px 0 #555;
+}
+
+p {
+  text-shadow:
+		-1px -1px 0 #555,
+		1px -1px 0 #555,
+		-1px 1px 0 #555,
+		1px 1px 0 #555;
+}
+
+h5 {
+  text-shadow:
+  -1px -1px 0 #555,
+  1px -1px 0 #555,
+  -1px 1px 0 #555,
+  1px 1px 0 #555;
+}
 a:hover {
   background-color: silver;
   border-bottom-left-radius:5px;
@@ -22,9 +45,12 @@ a:active {
   border-top-left-radius:5px;
 }
 
+.left {
+  float: left;
+  padding: 0 10px 0 0;}
 
 :root {
-  scroll-padding-top: 8rem;
+  scroll-padding-top: 7rem;
 }
 
 body {
@@ -39,13 +65,24 @@ background-color: #ffffff;
 
 .container-fluid-blue {
   color: white;
-  background-color: #64c1ff;
+  /* background-color: #64c1ff; */
+  background-color: #64a2ff;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
 
 .container-fluid-orange {
   color: white;
+  /* background-color: #fd7200; */
   background-color: #fd7200;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
 }
+
+.container-fluid-footer {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+  }
+
   
 .btn-blue {
   background: #64c1ff;
