@@ -67,7 +67,7 @@ background-color: #ffffff;
   color: white;
   /* background-color: #64c1ff; */
   background-color: #64a2ff;
-  background-image: url("https://www.transparenttextures.com/patterns/swirl.png");
+  background-image: url("/images/swirl.png");
   /* background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png"); */
 }
 
@@ -75,13 +75,13 @@ background-color: #ffffff;
   color: white;
   /* background-color: #fd7200; */
   background-color: #fd7200;
-  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  background-image: url("/images/light-wool.png");
 }
 
 .container-fluid-footer {
   color: rgb(255, 255, 255);
   background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/use-your-illusion.png");
+  background-image: url("/images/use-your-illusion.png");
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   }
 
