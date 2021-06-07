@@ -1,4 +1,7 @@
 
+/* This style sheet needs refactoring */
+
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -65,15 +68,12 @@ background-color: #ffffff;
 
 .container-fluid-blue {
   color: white;
-  /* background-color: #64c1ff; */
   background-color: #64a2ff;
   background-image: url("/images/swirl.png");
-  /* background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png"); */
 }
 
 .container-fluid-orange {
   color: white;
-  /* background-color: #fd7200; */
   background-color: #fd7200;
   background-image: url("/images/light-wool.png");
 }
@@ -82,7 +82,6 @@ background-color: #ffffff;
   color: rgb(255, 255, 255);
   background-color: #000000;
   background-image: url("/images/use-your-illusion.png");
-  /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   }
 
   
@@ -100,7 +99,6 @@ background-color: #ffffff;
 
 .btn-white-transparent {
   background: #ffffff;
-  /* color: #000000; */
   border-color: rgb(255, 255, 255);
 
 }
