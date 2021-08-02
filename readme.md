@@ -1,12 +1,19 @@
 About:
-This is a church website that I have created as a portfolio project, and as a volunteer job, for a small church in my community. All coding copyright © Brandon L. Russell 2021. Images are courtey of Unspash.com (https://unsplash.com/license). This website is functioning well for its intended purpose, but it is in need of some refactoring and optimziation, which I intend to perform at a later time. Webpage built using Bootstrap 4 and EJS, and hosted on Heroku during testing.
+This is a church website that I have created as a portfolio project, and as a volunteer job, for a small church in my community. Images are courtey of Unspash.com (https://unsplash.com/license). The webpage was built using Bootstrap 4 and EJS and is live on Heroku at "http://churchpage.herokuapp.com/."
 
 Details:
-This website has been created for Cameron Creek Church of Farmersville, CA. The church is rather small and lacks anyone skilled in web development and lacks the budget to pay someone to maintain the site. Given these factors, I designed the website to be static and maintaince free. The only dynamic section of the site is on the 'messages' page, where I used the Facebook 'page plugin' to deliver the church's Facebook feed to the website automatically. If any visitor of the site needs to communicate with the church, they are directed to either call the church directly (the pastor's phone number is provided) or contact the church using Facebook, as the church actively maintains its Facebook page. Otherwise, the only other function of this site is to display basic information about the church itself and it's various ministries.
+This website has been created, by me, for Cameron Creek Church of Farmersville, CA. At the request of the church, this website has been designed to be mostly static and as maintence free as possible, so this website was built to those client expectations. The only dynamic section of the site is on the 'messages' page, where the Facebook 'page plugin' is used to deliver the church's Facebook feed automatically. 
 
-This is my first solo website project since completing my boot camp course and I learend quite a bit while completing this project. I am aware that there is some refactoring and optimzation that could be done to make this code better, but due to present time limitations, and that the website is satisfactory to the leadership of the church, I am choosing not to persue upates at present, but I intend to do so in the future.
+Dependencies:
+This website runs on Node.js and using the following technologies:
+Express
+Body-parser
+EJS
+Bootstrap 4
 
-Thanks for reading. 
+Author:
 
 -Brandon L. Russell
 kzp700@gmail.com
+
+All code copyright © 2021 Brandon L. Russell
